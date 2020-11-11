@@ -48,7 +48,34 @@ Run the migrations up `npm run migrate`
 
 Run the migrations down `npm run migrate -- 0`
 
+
+## API routes
+* /api/auth/token (post, and put)
+   Used for Login purposes
+
+* /api/user/token (post, and put)
+   used for login purposes
+
+* /api/language (get)
+
+   grabs list of words for the specific user
+
+* /api/language/head (get)
+
+   grabs the first word in the list for the user to translate
+
+* /api/language/guess (post)
+
+   sends the guess and verifies if it matches that word's translation. If it does:
+   the word's memory value is doubled, if wrong: memory value becomes 1. After that,
+   the word is shifted along the list by the value of its memory value.
+
 ## Links
 * [Client Repo](https://github.com/Mark-The-Dev/Funny-French-Phrases-Client)
 * [Server / API repo](https://github.com/Mark-The-Dev/Learn-Funny-French-Phrases-Server)
 * [Live Link]()
+
+
+## Contributor
+
+Mark Marcello
