@@ -73,7 +73,7 @@ Run the migrations down `npm run migrate -- 0`
 ## Links
 * [Client Repo](https://github.com/Mark-The-Dev/Funny-French-Phrases-Client)
 * [Server / API repo](https://github.com/Mark-The-Dev/Learn-Funny-French-Phrases-Server)
-* [Live Link]()
+* [Live Link](https://client-snowy.vercel.app/login)
 
 
 ## Contributor
