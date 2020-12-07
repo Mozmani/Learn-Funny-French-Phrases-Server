@@ -21,7 +21,7 @@ VALUES
 
 INSERT INTO "word" ("id", "language_id", "original", "translation", "next")
 VALUES
-  (1, 1, 'Ah, la vache!', 'Oh, my cow!', 2),
+  (1, 1, 'Ah, la vache!', 'Oh, my cow', 2),
   (2, 1, 'Devenir chêvre', 'To become a goat', 3),
   (3, 1, 'Arrête ton char!', 'Stop your chariot', 4),
   (4, 1, 'Faire l’andouille', 'to make the sausage', 5),

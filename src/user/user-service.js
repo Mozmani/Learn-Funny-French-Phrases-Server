@@ -58,7 +58,7 @@ const UserService = {
         .first()
 
       const languageWords = [
-        ['Ah, la vache!', 'Oh, my cow!', 2],
+        ['Ah, la vache!', 'Oh, my cow', 2],
         ['Devenir chêvre', 'To become a goat', 3],
         ['Arrête ton char!', 'Stop your chariot', 4],
         ['Faire l’andouille', 'to make the sausage', 5],
