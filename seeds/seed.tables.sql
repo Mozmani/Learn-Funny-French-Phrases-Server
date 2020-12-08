@@ -21,14 +21,14 @@ VALUES
 
 INSERT INTO "word" ("id", "language_id", "original", "translation", "next")
 VALUES
-  (1, 1, 'Ah, la vache!', 'Oh, my cow', 2),
-  (2, 1, 'Devenir chêvre', 'To become a goat', 3),
-  (3, 1, 'Arrête ton char!', 'Stop your chariot', 4),
+  (1, 1, 'Ah, la vache!', 'oh, my cow', 2),
+  (2, 1, 'Devenir chêvre', 'to become a goat', 3),
+  (3, 1, 'Arrête ton char!', 'stop your chariot', 4),
   (4, 1, 'Faire l’andouille', 'to make the sausage', 5),
-  (5, 1, 'En avoir ras le bol', 'To have a bowl full of it', 6),
-  (6, 1, 'Donner un coup de main', 'To give a knock of hand', 7),
-  (7, 1, 'Être au taquet', 'To be a piece of wood', 8),
-  (8, 1, 'Tomber dans les pommes', 'Fall in apples', null);
+  (5, 1, 'En avoir ras le bol', 'to have a bowl full of it', 6),
+  (6, 1, 'Donner un coup de main', 'to give a knock of hand', 7),
+  (7, 1, 'Être au taquet', 'to be a piece of wood', 8),
+  (8, 1, 'Tomber dans les pommes', 'fall in apples', null);
 
 UPDATE "language" SET head = 1 WHERE id = 1;
 

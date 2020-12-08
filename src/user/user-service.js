@@ -58,14 +58,14 @@ const UserService = {
         .first()
 
       const languageWords = [
-        ['Ah, la vache!', 'Oh, my cow', 2],
-        ['Devenir chêvre', 'To become a goat', 3],
-        ['Arrête ton char!', 'Stop your chariot', 4],
+        ['Ah, la vache!', 'oh, my cow', 2],
+        ['Devenir chêvre', 'to become a goat', 3],
+        ['Arrête ton char!', 'stop your chariot', 4],
         ['Faire l’andouille', 'to make the sausage', 5],
-        ['En avoir ras le bol', 'To have a bowl full of it', 6],
-        ['Donner un coup de main', 'To give a knock of hand', 7],
+        ['En avoir ras le bol', 'to have a bowl full of it', 6],
+        ['Donner un coup de main', 'to give a knock of hand', 7],
         ['Être au taquet', 'To be a piece of wood', 8],
-        ['Tomber dans les pommes', 'Fall in apples', null],
+        ['Tomber dans les pommes', 'fall in apples', null],
       ]
 
       const [languageHeadId] = await trx
